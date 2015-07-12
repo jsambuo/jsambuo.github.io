@@ -9,6 +9,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.sambuo.com" # the base hostname & protocol for your site
 twitter_username: jsambuo
 github_username:  jsambuo
+youtube_username: jsambuo
+gplus_username:   JimmySambuo
+linkedin_username: jsambuo
+facebook_username: jsambuo
 
 # Build settings
 markdown: kramdown
