@@ -8,6 +8,15 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.sambuo.com" # the base hostname & protocol for your site
 permalink: none
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-9199543-2'
+
 twitter_username: jsambuo
 github_username:  jsambuo
 youtube_username: jsambuo
