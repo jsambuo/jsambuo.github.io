@@ -7,7 +7,7 @@ In the past few months, there's been a lot of hype about cryptocurrencies. As so
 
 In this article, I'm going to explain what I know about Bitcoin.
 
-You can think of it like electronic cash. In 2008, a [whitepaper](https://bitcoin.org/bitcoin.pdf) was written by a figure named "Satoshi Nakamoto". To this day, nobody knows who his real identity is. The paper described a system called bitcoin. It built upon work done by others, and shows how we can verify payments and transactions without relying on a central entity, such as a bank. It also explains a way to solve the double spending problem, so someone cannot try to spend their last $20 twice.
+You can think of it like electronic cash. In 2008, a [whitepaper](https://bitcoin.org/bitcoin.pdf) was written by a figure named "Satoshi Nakamoto". To this day, nobody knows who his/her real identity is. The paper described a system called bitcoin. It built upon work done by others, and shows how we can verify payments and transactions without relying on a central entity, such as a bank. It also explains a way to solve the double spending problem, so someone cannot try to spend their last $20 twice.
 
 To prove that you can spend money, the system uses public-key cryptography. Your wallet is the public key, so everyone can see how much is in your wallet. In theory, this should keep you anonymous. In practice the public key can be associated with a real world purchase, breaking the anonymity.
 
