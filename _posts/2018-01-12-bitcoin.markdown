@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Bitcoin"
+date:   2018-01-12 06:30:05
+---
+In the past few months, there's been a lot of hype about cryptocurrencies. As someone who is into technology, I'm disappointed in myself for not exploring in the technology when I had the chance, especially when I had people close to me with experience encouraging me to do so. For this reason, I'm making it a point to take more opportunities to explore things I believe in. That's one reason why I'm forcing myself to write more.
+
+In this article, I'm going to explain what I know about Bitcoin.
+
+You can think of it like electronic cash. In 2008, a [whitepaper](https://bitcoin.org/bitcoin.pdf) was written by a figure named "Satoshi Nakamoto". To this day, nobody knows who his real identity is. The paper described a system called bitcoin. It built upon work done by others, and shows how we can verify payments and transactions without relying on a central entity, such as a bank. It also explains a way to solve the double spending problem, so someone cannot try to spend their last $20 twice.
+
+To prove that you can spend money, the system uses public-key cryptography. Your wallet is the public key, so everyone can see how much is in your wallet. In theory, this should keep you anonymous. In practice the public key can be associated with a real world purchase, breaking the anonymity.
+
+You also hold a private key. This key can unlock your wallet. Public-key cryptography uses math so you can prove that you hold the private key, without revealing the key itself. Through this method, you are able to move money from your wallet to another, and sign that transaction with your private key. If anyone gets a hold of your private key, they can move money from your wallet into their wallet and steal your money.
+
+Current practices say if you hold any significant amount of cryptocurrency, you should not keep your private key on your computer, or even your phone. This is because if it is connected to the internet, a virus or spyware may be able to take your key. Storing it on a USB drive is just as dangerous, since it may be compromised as soon as you plug it in.
+
+There are two decent solutions. One is called a paper wallet. The idea is that you generate a public/private key pair offline. People can send to your wallet, and once you use the private-key and spend from the wallet, you should not reuse the key. Instead, generate a new wallet. Keep the private key safe from water and fire. Many sites can help you generate a paper wallet, such as [this](https://www.bitaddress.org/).
+
+The second option is to use a hardware wallet. The most popular options today seems to be the [Trezor](https://trezor.io/) and the [Nano Ledger S](https://www.ledgerwallet.com/products/12-ledger-nano-s). The idea with these are that the private key never leaves the device. Instead, a signed transaction can be generated and used as needed.
+
+Whether you do paper or hardware wallets, [never trust anyone to generate a private-key for you.](https://redd.it/7obot7)
+
+There are also many online services, the most popular being [Coinbase](https://www.coinbase.com/). They are convenient for purchasing coins, but charge fees. The other concern is you are handing over your security to a third party. If they get hacked, your money may be gone. This has happened before, check out [Mt. Gox](https://en.wikipedia.org/wiki/Mt._Gox).
+
+Now that you have a public/private key pair, we need a way to prove that you have enough money in your wallet, or that someone else has enough to pay you. With bitcoin, this can be done because everyone who participates in payment verification holds the entire transaction history since bitcoin was created. This is called the blockchain. You can go through the history for any particular wallet to see how much it. If they don't have enough funds, you can reject the transaction.
+
+This can work because of a large amount of computers connected to the network to verify transactions. A transaction is accepted when a majority of the connected computers accepts the transaction into the blockchain. This is how double spending can be avoided, the network would accept one transaction and reject the other.
+
+The computers who are verifying the transactions are called "miners". This is because when they can successfully add a group of transactions to the blockchain, they are rewarded with coins, similar to mining for gold. The reward value is reduced by half every 210,000 blocks (about every 4 years). This is engrained within the bitcoin protocol. Mining is most commonly done on GPUs and ASICs. ASICs (like the [Antminer S9](https://shop.bitmain.com/antminer_s9_asic_bitcoin_miner.htm)) are the most efficient, but can only mine one type of coin. GPUs have the advantage of being able to mine other cryptocurrencies.
+
+Bitcoin has had some trouble with scaling. Currently, the blockchain is over 150GB, and growing at an exponential rate. The other issue is that it takes about 10 minutes to verify a transaction today. There are a couple of efforts ongoing to address these issues, such as [Bitcoin-NG](http://hackingdistributed.com/2015/10/14/bitcoin-ng/).
+
+I'm going to stop this article now because it's taking me a lot longer than I thought it would. There's still so much that could be discussed, such as Silk Road, Mining rigs, blockchain algorithms, and altcoins. I think I'll leave that for another time. Feel free to let me know if I've gotten something wrong, as I'd like to understand this technology better.
