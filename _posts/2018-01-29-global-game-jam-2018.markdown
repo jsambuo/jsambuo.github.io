@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Global Game Jam 2018"
-date:   2018-01-15 00:14:55
+date:   2018-01-29 00:14:55
 ---
 This is my fifth year of doing global game jam, and I had a really good time. I almost didn’t go, as I had a school project, side project, and work project to work on. However, I forced myself to go, and I’m glad I did.
 
