@@ -9,11 +9,11 @@ It’s been a while since I’ve done a hackathon style event. The energy in the
 
 This year I took it easy. Previous years I would stay up as long as I can for a night to get a lot done. This year my goal was just to play around with Unity and remind myself of the different parts. I went home around 1am and woke up around 6am, which was great because I got to work out and get some school work done in the morning, which I’ve been trying to do consistently. 
 
-I teamed up with a guy named Tyler. He’s a pretty cool guy. He also makes games in his free time. You can find his stuff here: http://www.tylermakes.com/. He did most of the work, and I tried to add things where I could. 
+I teamed up with a guy named Tyler. He’s a pretty cool guy. He also makes games in his free time. You can find his stuff [here](http://www.tylermakes.com/). He did most of the work, and I tried to add things where I could. 
 
 This year’s theme was "Transmission." We wanted to do something multiplayer, so we did something similar to the game pipe dream. The game is called "Packet Pirates." The idea is that data packets are being transmitted, and your job is to route the packets to yourself as much as you can.
 
-You can find our game here: https://globalgamejam.org/2018/games/packet-pirates
+You can find our game [here](https://globalgamejam.org/2018/games/packet-pirates)
 
 I had an interesting thought from this event. As an engineer, I’d typically split the program into multiple parts. This time, we decided to put all of the game logic in one class. I don’t remember the last time I did that. It made things a bit difficult to find and work with. It’s a game jam and we had limited time to learn and implement something, so I think it was appropriate. In fact, it was a very valuable experience, as I can now say from experience to give reasons why you should modularize code instead of just saying "that’s how it should be done."
 
