@@ -1,30 +1,52 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
-      </item>
-    {% endfor %}
+    <title>Random Thoughts of Jimmy</title>
+    <description>This is Jimmy Sambuo's website with essays on software, projects, and life.</description>
+    <link>https://www.sambuo.com/</link>
+    <atom:link href="https://www.sambuo.com/feed.xml" rel="self" type="application/rss+xml" />
+    <generator>Static HTML</generator>
+    <item>
+      <title>Financial Independence</title>
+      <link>https://www.sambuo.com/financial-independence.html</link>
+      <guid isPermaLink="true">https://www.sambuo.com/financial-independence.html</guid>
+      <pubDate>Fri, 09 Feb 2018 09:09:36 +0000</pubDate>
+      <description>Legacy post: Financial Independence</description>
+    </item>
+    <item>
+      <title>Global Game Jam 2018</title>
+      <link>https://www.sambuo.com/global-game-jam-2018.html</link>
+      <guid isPermaLink="true">https://www.sambuo.com/global-game-jam-2018.html</guid>
+      <pubDate>Mon, 29 Jan 2018 00:14:55 +0000</pubDate>
+      <description>Legacy post: Global Game Jam 2018</description>
+    </item>
+    <item>
+      <title>My experience with GCP</title>
+      <link>https://www.sambuo.com/my-experience-with-gcp.html</link>
+      <guid isPermaLink="true">https://www.sambuo.com/my-experience-with-gcp.html</guid>
+      <pubDate>Mon, 15 Jan 2018 11:12:20 +0000</pubDate>
+      <description>Legacy post: My experience with GCP</description>
+    </item>
+    <item>
+      <title>Bitcoin</title>
+      <link>https://www.sambuo.com/bitcoin.html</link>
+      <guid isPermaLink="true">https://www.sambuo.com/bitcoin.html</guid>
+      <pubDate>Fri, 12 Jan 2018 06:30:05 +0000</pubDate>
+      <description>Legacy post: Bitcoin</description>
+    </item>
+    <item>
+      <title>Happy 2018</title>
+      <link>https://www.sambuo.com/happy-2018.html</link>
+      <guid isPermaLink="true">https://www.sambuo.com/happy-2018.html</guid>
+      <pubDate>Sat, 06 Jan 2018 06:34:30 +0000</pubDate>
+      <description>Legacy post: Happy 2018</description>
+    </item>
+    <item>
+      <title>Hello everybody</title>
+      <link>https://www.sambuo.com/hello-everybody.html</link>
+      <guid isPermaLink="true">https://www.sambuo.com/hello-everybody.html</guid>
+      <pubDate>Sun, 12 Jul 2015 17:54:24 +0000</pubDate>
+      <description>Legacy post: Hello everybody</description>
+    </item>
   </channel>
 </rss>

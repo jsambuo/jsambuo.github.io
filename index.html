@@ -1,23 +1,70 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Random Thoughts of Jimmy</title>
+  <meta name="description" content="This is Jimmy Sambuo's website with essays on software, projects, and life.">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://www.sambuo.com/">
+  <link rel="alternate" type="application/rss+xml" title="Random Thoughts of Jimmy" href="https://www.sambuo.com/feed.xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Random Thoughts of Jimmy</a>
+      <nav class="site-nav">
+        <a class="page-link" href="/about/">About</a>
+        <a class="page-link" href="/articles/">Articles</a>
+      </nav>
+    </div>
+  </header>
 
-<div class="home">
+  <main class="page-content">
+    <div class="wrapper home">
+      <h1 class="page-heading">Posts</h1>
+      <ul class="post-list">
+        <li>
+          <span class="post-meta">Feb 9, 2018</span>
+          <h2><a class="post-link" href="/financial-independence.html">Financial Independence</a></h2>
+        </li>
+        <li>
+          <span class="post-meta">Jan 29, 2018</span>
+          <h2><a class="post-link" href="/global-game-jam-2018.html">Global Game Jam 2018</a></h2>
+        </li>
+        <li>
+          <span class="post-meta">Jan 15, 2018</span>
+          <h2><a class="post-link" href="/my-experience-with-gcp.html">My experience with GCP</a></h2>
+        </li>
+        <li>
+          <span class="post-meta">Jan 12, 2018</span>
+          <h2><a class="post-link" href="/bitcoin.html">Bitcoin</a></h2>
+        </li>
+        <li>
+          <span class="post-meta">Jan 6, 2018</span>
+          <h2><a class="post-link" href="/happy-2018.html">Happy 2018</a></h2>
+        </li>
+        <li>
+          <span class="post-meta">Jul 12, 2015</span>
+          <h2><a class="post-link" href="/hello-everybody.html">Hello everybody</a></h2>
+        </li>
+      </ul>
 
-  <h1 class="page-heading">Posts</h1>
+      <p class="rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a></p>
+      <p class="rss-subscribe">New writing lives at <a href="/articles/">/articles/</a>.</p>
+    </div>
+  </main>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>Jimmy Sambuo · <a href="mailto:jimmy@sambuo.com">jimmy@sambuo.com</a></p>
+      <p>
+        <a href="https://github.com/jsambuo">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/jsambuo">LinkedIn</a> ·
+        <a href="https://twitter.com/jsambuo">Twitter</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
