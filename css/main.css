@@ -802,6 +802,67 @@ pre code {
   color: #445163;
 }
 
+/* Portfolio detail sections */
+.portfolio-panel {
+  border: 1px solid #d4ddef;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #f6fbff, #fff9f3);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.portfolio-panel h3 {
+  margin: 0 0 0.45rem;
+  font-family: "Space Grotesk", "Trebuchet MS", "Segoe UI", sans-serif;
+  font-size: clamp(1.02rem, 0.95rem + 0.35vw, 1.22rem);
+  line-height: 1.2;
+  color: #112846;
+}
+
+.portfolio-panel p {
+  margin: 0 0 0.72rem;
+  color: #435164;
+}
+
+.contrib-list,
+.credential-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+.post-content ul.contrib-list,
+.post-content ul.credential-list {
+  padding-left: 0;
+}
+
+.post-content ul.post-list {
+  padding-left: 0;
+}
+
+.contrib-list li,
+.credential-list li {
+  border: 1px solid #d6deec;
+  border-radius: 14px;
+  padding: 0.9rem 0.95rem;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.contrib-list p,
+.credential-list p {
+  margin: 0 0 0.45rem;
+  color: #435164;
+}
+
+.contrib-list p:last-child,
+.credential-list p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 980px) {
   .project-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -814,6 +875,7 @@ pre code {
   .note-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
 }
 
 @media (max-width: 760px) {
