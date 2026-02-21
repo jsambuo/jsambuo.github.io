@@ -556,6 +556,41 @@ pre code {
   margin-top: 2.1rem;
 }
 
+.mentorship-card {
+  border: 1px solid #c8d6ea;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #f7fbff, #fff6ef);
+  box-shadow: var(--shadow);
+  padding: 1rem 1.1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.mentorship-card h2 {
+  margin: 0 0 0.35rem;
+  font-family: "Space Grotesk", "Trebuchet MS", "Segoe UI", sans-serif;
+  font-size: clamp(1.2rem, 1rem + 0.65vw, 1.55rem);
+  line-height: 1.18;
+  color: #112846;
+}
+
+.mentorship-card p {
+  margin: 0;
+  color: #3f4f62;
+}
+
+.mentorship-card .cta-row {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.mentorship-card .button {
+  white-space: nowrap;
+  padding: 0.6rem 1.15rem;
+}
+
 .section-head {
   display: flex;
   align-items: baseline;
@@ -781,6 +816,11 @@ pre code {
   .video-grid,
   .note-grid {
     grid-template-columns: 1fr;
+  }
+
+  .mentorship-card {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
   }
 
   .section-head {
